@@ -9,6 +9,6 @@ app:
 db:
    connectionUrl: "localhost:8731/test"
    port: 3210
-   username: test
-   password: test
+   username: test1
+   password: test1
 management.endpoints.web.exposure.include: "*"
