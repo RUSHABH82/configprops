@@ -1,0 +1,14 @@
+my:
+   greeting: hello1
+app:
+   name: spring-config
+   discription: This is discription of ${app.name}
+   list.value: ramesh,suresh,ganesh,mukesh
+   db:
+     value: "{url:'localhost:3000/....',username:'test',password:'test'}"
+db:
+   connectionUrl: "localhost:8731/test"
+   port: 3210
+   username: test
+   password: test
+management.endpoints.web.exposure.include: "*"
